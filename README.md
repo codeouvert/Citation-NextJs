@@ -179,6 +179,6 @@ git branch #Voir la branche sur laquelle on est
 git remote -v  #Voir les remotes
 git remote add originGitlab git@gitlab.com:code-ouvert/citation-nextjs.git
 git remote add originGithub https://github.com/codeouvert/Citation-NextJs.git
-git push --set-upstream origin master
-git push -u github master
+git push --set-upstream originGitlab master
+git push -u originGithub master
 ```
