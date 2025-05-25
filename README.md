@@ -166,3 +166,19 @@ npx prisma studio
 ```bash
 npm run dev
 ```
+
+### Creation du depot GitLab et Github
+
+```bash
+git config --global user.email "leyassino@gmail.com"
+git config --global user.name "NGUESSU Yassin El Kamal"
+git init
+git add .
+git commit -m "Initial commit"
+git branch #Voir la branche sur laquelle on est
+git remote -v  #Voir les remotes
+git remote add originGitlab git@gitlab.com:code-ouvert/citation-nextjs.git
+git remote add originGithub https://github.com/codeouvert/Citation-NextJs.git
+git push --set-upstream origin master
+git push -u github master
+```
